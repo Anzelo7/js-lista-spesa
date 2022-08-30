@@ -4,12 +4,13 @@ console.log('JS OK')
 
 const list = ['mela', 'pera', 'banana', 'brioche']
 let i = 0;
-
-while (i < list.length) {
+let text = ""
+while (i < list) {
 
     console.log(list[i]);
 
+    text += list[i];
     i++;
 }
 
-document.innerHTML = list.length
+document.getElementById("list").innerHTML = text;
