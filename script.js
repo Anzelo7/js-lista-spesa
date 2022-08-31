@@ -5,7 +5,7 @@ console.log('JS OK')
 const list = ['mela', 'pera', 'banana', 'brioche']
 let i = 0;
 let text = ""
-while (i < list) {
+while (i < list.length) {
 
     console.log(list[i]);
 
